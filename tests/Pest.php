@@ -1,0 +1,14 @@
+<?php declare(strict_types=1);
+
+/**
+ * Copyright (C) Brian Faust
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+use Cline\AttributeReader\Attributes;
+
+uses()->beforeEach(function (): void {
+    $this->attributes = new Attributes();
+})->in(__DIR__);
